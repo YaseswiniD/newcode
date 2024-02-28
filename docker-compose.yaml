@@ -2,7 +2,7 @@
 version: "3.8"
 services:
   mysqldb:
-    container_name: skillsagedb
+    container_name: mysqldb
     image: mysql
     ports:
       - "3306:3306"
